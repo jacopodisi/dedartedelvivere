@@ -1,6 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Home
+landing-title: 'Arredamenti D&D Arte del Vivere'
+description: null
+image: null
+author: null
+permalink: 
 ---
+
+Arredamenti D&D Arte del Vivere è sinonimo di eleganza e punto di riferimento per soluzioni avvincenti per l’arredamento della tua casa. Specializzati nel fornire soluzioni per l’arredo della zona cucina, zona giorno, zona bagno e notte. I nostri 25 anni di attività ci consentono di focalizzarci sulle esigenze d’arredo e le necessità dei nostri clienti trasformandole in progetti assolutamente personali, garantendo inoltre un’accurata assistenza post vendita. Arredamenti D&D Arte del Vivere propone arredamenti e mobili selezionati solo dalle migliori e più rinomate marche italiane ed internazionali come: Copat Life e Robur per la zona giorno, Stressless, CTS e Rigo salotti, MD house.
