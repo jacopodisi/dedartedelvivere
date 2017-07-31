@@ -1,0 +1,30 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: "Prodotti"
+  url: "/prodotti/"
+  side: left
+  dropdown:
+  - title: "Cucine"
+    url: "/prodotti/cucine/"
+  - title: "Zona Giorno"
+    url: "/prodotti/zona-giorno/"
+  - title: "Stressless"
+    url: "/prodotti/stressless/"
+  - title: "Imbottiti"
+    url: "/prodotti/imbottiti/"
+  - title: "Zona Notte"
+    url: "/prodotti/zona-notte/"
+
+- title: "Realizzazioni"
+  url: "/realizzazioni/"
+  side: left
+
+- title: Occasioni
+  url: "/occasioni/"
+  side: left
+
+- title: "Contatti"
+  url: "/contatti/"
+  side: right
