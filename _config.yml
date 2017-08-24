@@ -44,7 +44,7 @@ urlimg: 'http://localhost:4000/dedartedelvivere/images/'
 logo: "logo.png"
 
 # Gems
-gems:
+plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
