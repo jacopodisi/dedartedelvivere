@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: fronte_negozio.jpg
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -25,31 +25,39 @@ permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
+# zonagiorno/denise_019_thumb.jpg
 #
 homepage: true
 ---
 
 <div class="row">
-    <div class="small-12 columns">
-        <h3>Large Displays Three Columns</h3>
-    </div><!-- /.small-12.columns -->
-</div>
-
-<div class="row">
   <div class="large-4 columns">
-    <a href="{{ site.url }}{{ site.baseurl }}/prodotti/">
-      <img src="https://phlow.github.io/feeling-responsive/images/gallery-example-1.jpg" title="Prodotti">
-    </a>
-  </div>
-  <div class="large-4 columns">
-    <a href="{{ site.url }}{{ site.baseurl }}/realizzazioni/">
-      <img src="https://phlow.github.io/feeling-responsive/images/gallery-example-2.jpg" title="Prodotti">
-    </a>
+    <div class="image-hover-wrapper">
+      <span class="image-hover-wrapper-banner">Prodotti</span>
+        <a href="{{ site.url }}{{ site.baseurl }}/prodotti/">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/85-IMG_8738_thumb.jpg">
+          <span class="image-hover-wrapper-reveal"/>
+        </a>
+    </div>
   </div>
 
   <div class="large-4 columns">
-    <a href="{{ site.url }}{{ site.baseurl }}/occasioni/">
-      <img src="https://phlow.github.io/feeling-responsive/images/gallery-example-3.jpg" title="Prodotti">
-    </a>
+    <div class="image-hover-wrapper">
+      <span class="image-hover-wrapper-banner">Realizzazioni</span>
+        <a href="{{ site.url }}{{ site.baseurl }}/realizzazioni/">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/zonagiorno/85-denise_019_thumb.jpg">
+          <span class="image-hover-wrapper-reveal"/>
+        </a>
+    </div>
+  </div>
+
+  <div class="large-4 columns">
+    <div class="image-hover-wrapper">
+      <span class="image-hover-wrapper-banner">Occasioni</span>
+        <a href="{{ site.url }}{{ site.baseurl }}/occasioni/" >
+        <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/85-IMG_8855_thumb.jpg">
+          <span class="image-hover-wrapper-reveal"/>
+        </a>
+    </div>
   </div>
 </div>
