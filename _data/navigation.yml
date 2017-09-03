@@ -8,14 +8,10 @@
   dropdown:
   - title: "Cucine"
     url: "/prodotti/cucine/"
-  - title: "Zona Giorno"
-    url: "/prodotti/zona-giorno/"
-  - title: "Stressless"
-    url: "/prodotti/stressless/"
-  - title: "Imbottiti"
-    url: "/prodotti/imbottiti/"
-  - title: "Zona Notte"
-    url: "/prodotti/zona-notte/"
+  - title: "Living"
+    url: "/prodotti/living/"
+  - title: "Stressless e Sofà"
+    url: "/prodotti/sofa/"
 
 - title: "Realizzazioni"
   url: "/realizzazioni/"

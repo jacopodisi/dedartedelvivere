@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: frontpage
 show_meta: false
 title: "Titolo pagina prodotti..."
 subheadline: "sotto titolo..."
@@ -11,8 +11,8 @@ permalink: "/prodotti/"
   <div class="small-4 columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Cucine</span>
-        <a href="{{ site.url }}{{ site.baseurl }}/prodotti/cucine">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/04_KALI_G.jpg">
+        <a href="{{ site.url }}{{ site.baseurl }}/prodotti/cucine/">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/arredo3/04_KALI_G_link.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>

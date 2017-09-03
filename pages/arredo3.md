@@ -8,23 +8,23 @@ header:
   image_fullwidth: fronte_negozio.jpg
 permalink: "/cucine/arredo3/"
 image:
-   thumb: "gallery-example-1-thumb.jpg"
+   thumb: "cucine/arredo3/04_KALI_G-thumb.jpg"
 gallery:
-    - image_url: gallery-example-1.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-2.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-3.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-4.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-5.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-6.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-7.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-8.jpg
-      caption: Great images by Unsplash.com
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
+    - image_url: cucine/arredo3/04_KALI_G.jpg
+      caption: KALI
 ---
 {% include gallery %}
