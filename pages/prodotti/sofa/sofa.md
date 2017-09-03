@@ -9,7 +9,7 @@ permalink: "/prodotti/sofa/"
 ---
 
 <div class="row">
-  <div class="medium-3 columns">
+  <div class="small-5 small-offset-1 medium-3 medium-offset-0 columns">
     <div class="image-hover-wrapper">
         <a href="{{ site.url }}{{ site.baseurl }}/cucine/arredo3">
           <img src="{{ site.url }}{{ site.baseurl }}/images/loghi/logo-arredo3-big_logo.jpg">
@@ -18,7 +18,7 @@ permalink: "/prodotti/sofa/"
     </div>
   </div>
 
-  <div class="medium-3 columns">
+  <div class="small-5 medium-3 medium-offset-0 columns">
     <div class="image-hover-wrapper">
         <a href="{{ site.url }}{{ site.baseurl }}/cucine/arredo3">
           <img src="{{ site.url }}{{ site.baseurl }}/images/loghi/logo-arredo3-big_logo.jpg">
@@ -27,7 +27,7 @@ permalink: "/prodotti/sofa/"
     </div>
   </div>
 
-  <div class="medium-3 columns">
+  <div class="small-5 small-offset-1 medium-3 medium-offset-0 columns">
     <div class="image-hover-wrapper">
         <a href="{{ site.url }}{{ site.baseurl }}/cucine/arredo3" >
         <img src="{{ site.url }}{{ site.baseurl }}/images/loghi/logo-arredo3-big_logo.jpg">
@@ -36,7 +36,7 @@ permalink: "/prodotti/sofa/"
     </div>
   </div>
 
-  <div class="medium-3 columns">
+  <div class="small-5  medium-3 medium-offset-0 columns end">
     <div class="image-hover-wrapper">
         <a href="{{ site.url }}{{ site.baseurl }}/cucine/arredo3" >
         <img src="{{ site.url }}{{ site.baseurl }}/images/loghi/logo-arredo3-big_logo.jpg">

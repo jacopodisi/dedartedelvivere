@@ -27,7 +27,7 @@ homepage: true
 ---
 
 <div class="row">
-  <div class="small-4 columns">
+  <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Prodotti</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/">
@@ -37,7 +37,7 @@ homepage: true
     </div>
   </div>
 
-  <div class="small-4 columns">
+  <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Realizzazioni</span>
         <a href="{{ site.url }}{{ site.baseurl }}/realizzazioni/">
@@ -47,7 +47,7 @@ homepage: true
     </div>
   </div>
 
-  <div class="small-4 columns">
+  <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Occasioni</span>
         <a href="{{ site.url }}{{ site.baseurl }}/occasioni/" >

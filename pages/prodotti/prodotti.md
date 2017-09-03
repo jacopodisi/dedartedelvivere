@@ -8,7 +8,7 @@ header:
 permalink: "/prodotti/"
 ---
 <div class="row">
-  <div class="small-4 columns">
+  <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Cucine</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/cucine/">
@@ -18,7 +18,7 @@ permalink: "/prodotti/"
     </div>
   </div>
 
-  <div class="small-4 columns">
+  <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Living</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/living">
@@ -28,7 +28,7 @@ permalink: "/prodotti/"
     </div>
   </div>
 
-  <div class="small-4 columns">
+  <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Stressless e Sofà</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/sofa" >
