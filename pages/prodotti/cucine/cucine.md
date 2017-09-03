@@ -1,13 +1,11 @@
 ---
 layout: frontpage
-header:
-  image_fullwidth: fronte_negozio.jpg
 show_meta: false
-subheadline: "Prodotti"
-title:  "Cucine"
-teaser: "Teaser....."
-categories:
-    - prodotti
+title: "Cucine"
+subheadline: "sotto titolo..."
+header:
+   image_fullwidth: "fronte_negozio.jpg"
+permalink: "/prodotti/cucine/"
 ---
 
 <div class="row">

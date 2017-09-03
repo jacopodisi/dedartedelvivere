@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page-fullwidth
 show_meta: false
 title: "Arredo3"
-subheadline: "Sottotitolo"
-teaser: "Teaser"
+subheadline: ""
+teaser: ""
 header:
   image_fullwidth: fronte_negozio.jpg
 permalink: "/cucine/arredo3/"
