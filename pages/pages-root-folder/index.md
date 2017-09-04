@@ -31,7 +31,7 @@ homepage: true
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Prodotti</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/85-IMG_8738_thumb.jpg">
+          <img src="{{ site.urlimg }}/cucine/85-IMG_8738_thumb.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>
@@ -41,7 +41,7 @@ homepage: true
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Realizzazioni</span>
         <a href="{{ site.url }}{{ site.baseurl }}/realizzazioni/">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/zonagiorno/85-denise_019_thumb.jpg">
+          <img src="{{ site.urlimg }}/zonagiorno/85-denise_019_thumb.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>
@@ -51,7 +51,7 @@ homepage: true
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Occasioni</span>
         <a href="{{ site.url }}{{ site.baseurl }}/occasioni/" >
-        <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/85-IMG_8855_thumb.jpg">
+        <img src="{{ site.urlimg }}/cucine/85-IMG_8855_thumb.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>

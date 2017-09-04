@@ -12,7 +12,7 @@ permalink: "/prodotti/"
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Cucine</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/cucine/">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/arredo3/04_KALI_G_link.jpg">
+          <img src="{{ site.urlimg }}/cucine/arredo3/04_KALI_G_link.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>
@@ -22,7 +22,7 @@ permalink: "/prodotti/"
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Living</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/living">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/zonagiorno/85-denise_019_thumb.jpg">
+          <img src="{{ site.urlimg }}/zonagiorno/85-denise_019_thumb.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>
@@ -32,7 +32,7 @@ permalink: "/prodotti/"
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Stressless e Sofà</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/sofa" >
-        <img src="{{ site.url }}{{ site.baseurl }}/images/cucine/85-IMG_8855_thumb.jpg">
+        <img src="{{ site.urlimg }}/cucine/85-IMG_8855_thumb.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>

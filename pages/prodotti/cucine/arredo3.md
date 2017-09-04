@@ -26,5 +26,16 @@ gallery:
       caption: KALI
     - image_url: cucine/arredo3/04_KALI_G.jpg
       caption: KALI
+
 ---
 {% include gallery %}
+
+{% for img in site.data.images.cucine.arredo3 %}
+{% assign org = org_hash[1] %}
+  <li>
+    <a href="https://github.com/{{ org.username }}">
+      {{ org.name }}
+    </a>
+    ({{ org.members | size }} members)
+  </li>
+{% endfor %}
