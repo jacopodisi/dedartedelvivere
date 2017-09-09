@@ -23,11 +23,13 @@
 *
 *   Check out the example page › http://phlow.github.io/feeling-responsive/design/gallery/
 *
+* <li><a href="{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}" data-clearing-interchange="[{{ site.urlimg }}{{ page.gallery_url }}small/{{ item.image }}, (small-only)], [{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}, (medium-only)], [{{ site.urlimg }}{{ page.gallery_url }}{{ item.image }}, (xlarge)]"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
+*
 {% endcomment %}
 <div>
 	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
 		{% for item in page.gallery %}
-			<li><a href="{{ site.urlimg }}{{ page.gallery_url }}{{ item.image }}" data-clearing-interchange="[{{ site.urlimg }}{{ page.gallery_url }}small/{{ item.image }}, (small-only)], [{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}, (medium-only)], [{{ site.urlimg }}{{ page.gallery_url }}{{ item.image }}, (default)]"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
+			<li><a href="{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
 		{% endfor %}
 	</ul>
 </div>
