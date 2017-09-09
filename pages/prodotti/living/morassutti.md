@@ -1,7 +1,6 @@
 ---
 layout: frontpage
 show_meta: false
-title: "Morassutti"
 subheadline: ""
 teaser: ""
 header:
@@ -93,7 +92,9 @@ gallery:
       caption: Morassutti
     - image: PLAY_500007-SCORREVOLE-var-1.jpg
       caption: Morassutti
-    - image: PLAY_500014-SCORREVOLE-var-1.jpg
 
 ---
+
+Morassutti
+
 {% include gallery %}
