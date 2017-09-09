@@ -20,7 +20,7 @@ permalink: "/prodotti/cucine/"
 
   <div class="small-5 medium-3 medium-offset-0 columns">
     <div class="image-hover-wrapper">
-        <a href="{{ site.url }}{{ site.baseurl }}/cucine/arredo3">
+        <a href="{{ site.url }}{{ site.baseurl }}/cucine/copat">
           <img src="{{ site.urlimg }}/loghi/logo-arredo3-big_logo.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
