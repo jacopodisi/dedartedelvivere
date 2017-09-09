@@ -1,0 +1,1 @@
+convert logo_7.png -background '#333333' -gravity center -extent 214x214 logo_7.jpg
