@@ -29,7 +29,7 @@
 <div>
 	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
 		{% for item in page.gallery %}
-			<li><a href="{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
+			<li><a href="{{ site.urlimg }}{{ page.gallery_url }}{{ item.image }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
 		{% endfor %}
 	</ul>
 </div>
