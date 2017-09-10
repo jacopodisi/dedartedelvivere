@@ -9,21 +9,21 @@ header:
 permalink: "/cucine/arredo3/"
 gallery_url: "cucine/arredo3/"
 gallery:
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
-    - image_url: 04_KALI_G.jpg
+    - image: 04_KALI_G.jpg
       caption: KALI
 ---
 {% include gallery %}
