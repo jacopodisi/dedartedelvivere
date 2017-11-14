@@ -1,1 +1,2 @@
-convert logo_7.png -background '#333333' -gravity center -extent 214x214 logo_7.jpg
+magick lyons2.jpg -resize 180 lyons1.jpg
+convert lyons1.jpg -background '#FFFFFF' -gravity center -extent 214x214 lyons1.jpg

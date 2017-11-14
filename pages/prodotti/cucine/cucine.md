@@ -29,8 +29,8 @@ permalink: "/prodotti/cucine/"
 
   <div class="small-5 small-offset-1 medium-3 medium-offset-0 columns">
     <div class="image-hover-wrapper">
-        <a href="{{ site.url }}{{ site.baseurl }}/cucine/arredo3" >
-          <img src="{{ site.urlimg }}/loghi/logo-arredo3-big_logo.jpg">
+        <a href="{{ site.url }}{{ site.baseurl }}/cucine/lyons" >
+          <img src="{{ site.urlimg }}/loghi/lyons.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>
