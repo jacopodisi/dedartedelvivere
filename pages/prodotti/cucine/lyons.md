@@ -39,5 +39,7 @@ gallery:
     - image: 16010-LYS-CNV05-04-sc-_opt.jpg
       caption: Lyons
 ---
-Lyons
+# [Lyons](http://www.lyons.it/){:target="_blank"}
+
+<br>
 {% include gallery %}

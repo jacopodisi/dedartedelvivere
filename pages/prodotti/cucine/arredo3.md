@@ -26,4 +26,8 @@ gallery:
     - image: 04_KALI_G.jpg
       caption: KALI
 ---
+# [Arredo3](http://www.arredo3.it/){:target="_blank"}
+
+<br>
+
 {% include gallery %}

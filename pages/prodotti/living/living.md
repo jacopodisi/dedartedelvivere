@@ -9,10 +9,37 @@ permalink: "/prodotti/living/"
 ---
 
 <div class="row">
-  <div class="small-12 medium-8">
+  <div class="small-5 small-offset-1 medium-3 medium-offset-0 columns">
     <div class="image-hover-wrapper">
         <a href="{{ site.url }}{{ site.baseurl }}/living/morassutti">
-          <img src="{{ site.urlimg }}/loghi/morassutti-l.jpg">
+          <img src="{{ site.urlimg }}/loghi/morassutti.jpg">
+          <span class="image-hover-wrapper-reveal"/>
+        </a>
+    </div>
+  </div>
+
+  <div class="small-5 medium-3 medium-offset-0 columns">
+    <div class="image-hover-wrapper">
+        <a href="{{ site.url }}{{ site.baseurl }}/living/morassutti">
+          <img src="{{ site.urlimg }}/loghi/morassutti.jpg">
+          <span class="image-hover-wrapper-reveal"/>
+        </a>
+    </div>
+  </div>
+
+  <div class="small-5 small-offset-1 medium-3 medium-offset-0 columns">
+    <div class="image-hover-wrapper">
+        <a href="{{ site.url }}{{ site.baseurl }}/living/morassutti" >
+          <img src="{{ site.urlimg }}/loghi/morassutti.jpg">
+          <span class="image-hover-wrapper-reveal"/>
+        </a>
+    </div>
+  </div>
+
+  <div class="small-5  medium-3 medium-offset-0 columns end">
+    <div class="image-hover-wrapper">
+        <a href="{{ site.url }}{{ site.baseurl }}/living/morassutti" >
+          <img src="{{ site.urlimg }}/loghi/morassutti.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>

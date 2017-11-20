@@ -37,7 +37,8 @@ gallery:
     - image: 0610_17_V02_SET_03_ALL.jpg
       caption: Copat
 ---
+# [Copatlife](http://www.copatlife.it/){:target="_blank"}
 
-Copat
+<br>
 
 {% include gallery %}
