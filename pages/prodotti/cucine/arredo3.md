@@ -2,8 +2,8 @@
 layout: frontpage
 show_meta: false
 title: "Arredo3"
-subheadline: ""
-teaser: ""
+categories:
+    - cucine
 header:
    image_fullwidth: "fronte_negozio.jpg"
 permalink: "/cucine/arredo3/"

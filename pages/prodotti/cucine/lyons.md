@@ -1,8 +1,8 @@
 ---
 layout: frontpage
 show_meta: false
-subheadline: ""
-teaser: ""
+resource: true
+category: cucine
 header:
   image_fullwidth: fronte_negozio.jpg
 permalink: "/cucine/lyons/"

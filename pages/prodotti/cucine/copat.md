@@ -1,8 +1,10 @@
 ---
 layout: frontpage
 show_meta: false
-subheadline: ""
-teaser: ""
+categories:
+    - cucine
+image:
+    logo: loghi/copatlife-l.jpg
 header:
   image_fullwidth: fronte_negozio.jpg
 permalink: "/cucine/copat/"

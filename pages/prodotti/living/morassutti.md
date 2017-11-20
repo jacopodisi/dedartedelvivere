@@ -1,8 +1,6 @@
 ---
 layout: frontpage
 show_meta: false
-subheadline: ""
-teaser: ""
 header:
   image_fullwidth: fronte_negozio.jpg
 permalink: "/living/morassutti/"
@@ -95,6 +93,8 @@ gallery:
 
 ---
 
-Morassutti
+# Morassutti
+
+<br>
 
 {% include gallery %}

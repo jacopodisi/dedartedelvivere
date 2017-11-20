@@ -1,4 +1,5 @@
-for i in *.jpg
+for i in copatlife-logo.jpg
 do
-magick "$i" -resize 214x214 "${i%.jpg}_logo.jpg"
+aspectcrop -a 3:1 "$i" "${i%.jpg}_logo.jpg"
+magick "${i%.jpg}_logo.jpg" -resize 642x214 "${i%.jpg}_logo.jpg"
 done

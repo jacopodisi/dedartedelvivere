@@ -22,7 +22,7 @@ permalink: "/prodotti/"
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Living</span>
         <a href="{{ site.url }}{{ site.baseurl }}/prodotti/living">
-          <img src="{{ site.urlimg }}/living/85-denise_019_thumb.jpg">
+          <img src="{{ site.urlimg }}/living/13926-gen-6-var-1_cropres.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
     </div>

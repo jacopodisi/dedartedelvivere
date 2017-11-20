@@ -1,2 +1,2 @@
-magick lyons2.jpg -resize 180 lyons1.jpg
-convert lyons1.jpg -background '#FFFFFF' -gravity center -extent 214x214 lyons1.jpg
+magick lyons.jpg -resize 214 lyons-l.jpg
+convert lyons-l.jpg -background '#ffffff' -gravity center -extent 642x214 lyons-l.jpg
