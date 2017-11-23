@@ -1,2 +1,2 @@
-magick lyons.jpg -resize 214 lyons-l.jpg
-convert lyons-l.jpg -background '#ffffff' -gravity center -extent 642x214 lyons-l.jpg
+magick novamobili.jpg -resize 214 novamobili-l.jpg
+convert novamobili-l.jpg -background '#ffffff' -gravity center -extent 214x214 novamobili-l.jpg

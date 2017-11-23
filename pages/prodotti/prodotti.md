@@ -30,8 +30,8 @@ permalink: "/prodotti/"
 
   <div class="small-8 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
-      <span class="image-hover-wrapper-banner">Stressless e Sofà</span>
-        <a href="{{ site.url }}{{ site.baseurl }}/prodotti/sofa" >
+      <span class="image-hover-wrapper-banner">Dreaming</span>
+        <a href="{{ site.url }}{{ site.baseurl }}/prodotti/dreaming" >
         <img src="{{ site.urlimg }}/cucine/85-IMG_8855_thumb.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>

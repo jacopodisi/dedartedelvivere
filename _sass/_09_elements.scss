@@ -148,3 +148,24 @@ img.lazy {
     transition: opacity 0.7s;
     opacity: 1;
 }
+
+
+
+/* Form Style
+------------------------------------------------------------------- */
+
+form input, textarea {
+  width: 100%;
+  max-width: 350px
+}
+
+
+
+/* Iframe Style
+------------------------------------------------------------------- */
+
+.wrapper         {width:80%;height:100%;margin:0 auto;background:#CCC}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+

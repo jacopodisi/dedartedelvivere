@@ -1,11 +1,11 @@
 ---
 layout: frontpage
 show_meta: false
-title:  "Stressless & Sofà"
+title:  "Dreaming"
 subheadline: "sotto titolo..."
 header:
    image_fullwidth: "fronte_negozio.jpg"
-permalink: "/prodotti/sofa/"
+permalink: "/prodotti/dreaming/"
 ---
 
 <div class="row">

@@ -1,0 +1,40 @@
+{% comment %}
+*
+*   This include lets you easily embed a gallery into your post.
+*   To use the gallery include you...
+*
+*   1. ...need two images: a thumbnail and a big image.
+*   2. Name the thumbnail gallery-image-thumb.jpg and...
+*   3. ...name the big gallery-image.jpg
+*   4. Define the big version in frontmatter,
+*
+*   gallery:
+*       - image_url: gallery-image.jpg
+*
+*   5. Give your image a caption – works without captions, too.
+*
+*   gallery:
+*       - image_url: gallery-image.jpg
+*          caption: Starting Page with huge One Logo
+*
+*   6. Add the include whereever you want in your content like this:
+*
+*   {% include gallery %}
+*
+*   Check out the example page › http://phlow.github.io/feeling-responsive/design/gallery/
+*
+* <li><a href="{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}" data-clearing-interchange="[{{ site.urlimg }}{{ page.gallery_url }}small/{{ item.image }}, (small-only)], [{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}, (medium-only)], [{{ site.urlimg }}{{ page.gallery_url }}{{ item.image }}, (xlarge)]"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
+*
+{% endcomment %}
+
+{% assign modalid = modalid | plus: 1 %}
+
+<a href="#" data-reveal-id="ModalId{{ modalid }}"><img class="{{ include.class }}" src="{{ site.urlimg }}{{ include.image }}" alt="jjjjj"></a>
+
+<div id="ModalId{{ modalid }}" class="reveal-modal" data-reveal>
+    <img src="{{ site.urlimg }}{{ include.image }}" alt="jjjjjj">
+    {% if include.caption != nil %}
+        <h4 align="center" style="color:#000000">{{ include.caption }}</h4>
+    {% endif %}
+    <a class="close-reveal-modal"></a>
+</div>
