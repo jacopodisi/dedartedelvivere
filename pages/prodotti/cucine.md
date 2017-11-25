@@ -21,15 +21,15 @@ linkperrow: 5
 
 <div class="row">
     <div class="medium-4 columns t30">
-      {% include modalimg image='cucine/01_ZATASEI_E_ARREDO3.jpg' caption='Arreddo3 ZETASEI' %}
+      {% include modalimg image='cucine/01-zetaseiarredo3_16x9_thumb.jpg' modimage='cucine/01-zetaseiarredo3_16x9.jpg' caption='Arreddo3 ZETASEI' %}
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      {% include modalimg image='cucine/04_KALI_G_ARREDO3.jpg' %}
+      {% include modalimg image='cucine/02-zetaseiarredo3_16x9_thumb.jpg' modimage='cucine/02-zetaseiarredo3_16x9.jpg' caption='Arreddo3 ZETASEI' %}
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      {% include modalimg image='cucine/16010-LYS-CANOVA03-01-co-_opt.jpg' %}
+      {% include modalimg image='cucine/03-canovalyons_16x9_thumb.jpg' modimage='cucine/03-canovalyons_16x9.jpg' caption='Lyons CANOVA' %}
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
@@ -37,12 +37,12 @@ linkperrow: 5
 
 <div class="row">
     <div class="medium-8 columns t30">
-    {% include modalimg image='cucine/16010-LYS-CANOVA05-01-co-_opt.jpg' %}
+      {% include modalimg image='cucine/04-canovalyons_16x9_thumbbig.jpg' modimage='cucine/04-canovalyons_16x9.jpg' caption='Lyons CANOVA' %}
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 columns t30">
-      {% include modalimg image='cucine/Copatlife2.1_2.jpg' %}
-      {% include modalimg image='cucine/Copatlife3.1.jpg' class='t30' %}
+      {% include modalimg image='cucine/06-21copatlife_16x9_thumb.jpg' modimage='cucine/06-21copatlife_16x9.jpg' caption='Copatlife 2.1' %}
+      {% include modalimg image='cucine/07-31copatlife_16x9_thumb.jpg' modimage='cucine/06-21copatlife_16x9.jpg' caption='Copatlife 3.1' class='t30' %}
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
