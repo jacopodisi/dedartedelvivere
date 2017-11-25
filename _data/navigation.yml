@@ -10,8 +10,10 @@
     url: "/prodotti/cucine/"
   - title: "Living"
     url: "/prodotti/living/"
-  - title: "Dreaming"
-    url: "/prodotti/dreaming/"
+  - title: "Sofa"
+    url: "/prodotti/sofa/"
+  - title: "Wall decò"
+    url: "/prodotti/walldeco/"
 
 - title: "Realizzazioni"
   url: "/realizzazioni/"

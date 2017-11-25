@@ -2,7 +2,6 @@
 layout: frontpage
 show_meta: false
 title: "Cucine"
-subheadline: "sotto titolo..."
 header:
    image_fullwidth: "fronte_negozio.jpg"
 permalink: "/prodotti/cucine/"
