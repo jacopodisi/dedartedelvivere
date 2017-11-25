@@ -35,7 +35,7 @@ homepage: true
   <div class="small-7 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Prodotti</span>
-        <a href="{{ site.url }}{{ site.baseurl }}prodotti/">
+        <a href="{{ site.url }}{{ site.baseurl }}/prodotti/">
           <img src="{{ site.urlimg }}cucine_3x4.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
@@ -45,7 +45,7 @@ homepage: true
   <div class="small-7 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Realizzazioni</span>
-        <a href="{{ site.url }}{{ site.baseurl }}realizzazioni/">
+        <a href="{{ site.url }}{{ site.baseurl }}/realizzazioni/">
           <img src="{{ site.urlimg }}realizzazioni_3x4.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>
@@ -55,7 +55,7 @@ homepage: true
   <div class="small-7 medium-4 small-centered medium-uncentered columns">
     <div class="image-hover-wrapper">
       <span class="image-hover-wrapper-banner">Occasioni</span>
-        <a href="{{ site.url }}{{ site.baseurl }}occasioni/" >
+        <a href="{{ site.url }}{{ site.baseurl }}/occasioni/" >
         <img src="{{ site.urlimg }}occasioni_3x4.jpg">
           <span class="image-hover-wrapper-reveal"/>
         </a>

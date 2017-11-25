@@ -25,7 +25,7 @@ author: jacopo
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://jacopodisi.github.io/'
-baseurl: 'dedartedelvivere/'
+baseurl: '/dedartedelvivere'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
