@@ -78,10 +78,6 @@ $close-reveal-modal-class: "close-reveal-modal" !default;
     border-radius: $border-radius;
     #{$default-float}: 0;
 
-    @media #{$small-only} {
-      min-height:100vh;
-    }
-
     // Make sure rows don't have a min-width on them
     .column, .columns { min-width: 0; }
 
