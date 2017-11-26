@@ -20,38 +20,38 @@ linkperrow: 5
 
 <div class="row">
     <div class="medium-8 columns t30">
-    {% include modalimg image='sofa/01-stressless_16x9.jpg' %}
+    {% include modalimg image='sofa/01-stressless_16x9_thumbbig.jpg' %}
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 columns t30">
-      {% include modalimg image='sofa/02-stressless_16x9.jpg' %}
-      {% include modalimg image='sofa/03-stressless_16x9.jpg' class='t30' %}
+      {% include modalimg image='sofa/02-stressless_16x9_thumb.jpg' image='sofa/02-stressless_16x9.jpg' %}
+      {% include modalimg image='sofa/03-stressless_16x9_thumb.jpg' image='sofa/03-stressless_16x9.jpg' class='t30' %}
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
 
 <div class="row">
     <div class="medium-4 columns t30">
-      {% include modalimg image='sofa/05-globe_16x9.jpg' caption='RigoSalotti Globe' modimage='sofa/05-globe.jpg' %}
-      {% include modalimg image='sofa/07-divano_16x9.jpg' class='t30' %}
+      {% include modalimg image='sofa/05-globe_16x9_thumb.jpg' caption='RigoSalotti Globe' modimage='sofa/05-globe.jpg' %}
+      {% include modalimg image='sofa/07-divano_16x9_thumb.jpg' image='sofa/07-divano_16x9.jpg' class='t30' %}
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-8 columns t30">
-    {% include modalimg image='sofa/04-stressless_16x9.jpg' %}
+    {% include modalimg image='sofa/04-stressless_16x9_thumbbig.jpg' image='sofa/04-stressless_16x9.jpg' %}
     </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
 <div class="row">
     <div class="medium-4 columns t30">
-    {% include modalimg image='sofa/06-lerroy_16x9.jpg' %}
+    {% include modalimg image='sofa/06-lerroy_16x9_thumb.jpg' image='sofa/06-lerroy_16x9.jpg' %}
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 columns t30">
-    {% include modalimg image='sofa/08-rigo_16x9.jpg' %}
+    {% include modalimg image='sofa/08-rigo_16x9_thumb.jpg' image='sofa/08-rigo_16x9.jpg' %}
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 columns t30">
-    {% include modalimg image='sofa/09-rigo_16x9.jpg' %}
+    {% include modalimg image='sofa/09-rigo_16x9_thumb.jpg' image='sofa/09-rigo_16x9.jpg' %}
     </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
