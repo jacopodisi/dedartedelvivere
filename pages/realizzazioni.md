@@ -6,7 +6,7 @@ subheadline: ""
 teaser: ""
 header:
    image_fullwidth: "fronte_negozio.jpg"
-permalink: "/realizzazioni/"
+permalink: "realizzazioni/"
 gallery_url: "cucine/arredo3/"
 gallery:
     - image_url: 04_KALI_G.jpg

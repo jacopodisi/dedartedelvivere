@@ -3,7 +3,7 @@ layout: page-fullwidth
 header:
    image_fullwidth: "fronte_negozio.jpg"
 title: ""
-permalink: "/contatti/"
+permalink: "contatti/"
 ---
 <div class="row">
     <div class="small-10 small-centered medium-5 medium-centered medium-end large-6 large-uncentered columns">
