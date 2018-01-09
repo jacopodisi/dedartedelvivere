@@ -7,7 +7,7 @@ permalink: "contatti/"
 ---
 <div class="row">
     <div class="small-10 small-centered medium-5 medium-centered medium-end large-6 large-uncentered columns">
-        <h3>Contatta D&D<br>Arte del Vivere</h3><br>
+        <h3>Contatta D&amp;D<br>Arte del Vivere</h3><br>
         <form method="POST" action="http://formspree.io/disimone.jacopo@gmail.com">
             <input type="hidden" name="_language" value="it" />
             <input type="email" name="email" placeholder="La tua email">
