@@ -68,7 +68,7 @@ linkperrow: 6
         <img src='{{ site.urlimg }}cucine/06-21copatlife_16x9_thumbbig.jpg'>
       </div>
       <div class="hide-for-small-only">
-        {% include modalimg image='cucine/07-31copatlife_16x9_thumb.jpg' modimage='cucine/06-21copatlife_16x9.jpg' caption='Copatlife 3.1' class='t30' %}
+        {% include modalimg image='cucine/07-31copatlife_16x9_thumb.jpg' modimage='cucine/07-31copatlife_16x9.jpg' caption='Copatlife 3.1' class='t30' %}
       </div>
       <div class="show-for-small-only t30">
         <img src='{{ site.urlimg }}cucine/07-31copatlife_16x9_thumbbig.jpg'>

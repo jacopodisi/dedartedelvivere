@@ -12,6 +12,8 @@
     url: "/prodotti/living/"
   - title: "Sofa"
     url: "/prodotti/sofa/"
+  - title: "Bagni"
+    url: "/prodotti/bagni/"
   - title: "Wall decò"
     url: "/prodotti/walldeco/"
 

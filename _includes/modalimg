@@ -31,13 +31,13 @@
 
 <a href="#" data-reveal-id="ModalId{{ modalid }}"><img class="{{ include.class }}" src="{{ site.urlimg }}{{ include.image }}"></a>
 
-<div id="ModalId{{ modalid }}" class="reveal-modal" data-reveal>
+<div id="ModalId{{ modalid }}" class="reveal-modal {{ include.size }}" data-reveal>
     {% if include.modimage == nil %}
         <img src="{{ site.urlimg }}{{ include.image }}">
     {% else %}
         <img src="{{ site.urlimg }}{{ include.modimage }}">
     {% endif %}
-    {% if include.caption != nil %}
+    {% if nil != nil %}
         <h4 align="center" style="color:#000000">{{ include.caption }}</h4>
     {% endif %}
     <a class="close-reveal-modal"></a>

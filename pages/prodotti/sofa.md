@@ -24,7 +24,7 @@ linkperrow: 6
         {% include modalimg image='sofa/01-stressless_16x9_thumbbig.jpg' modimage='sofa/01-stressless_16x9.jpg' %}
       </div>
       <div class="show-for-small-only">
-        {% include modalimg image='sofa/01-stressless_16x9_thumb.jpg' modimage='sofa/01-stressless_16x9.jpg' %}
+        <img src="{{ site.urlimg }}sofa/01-stressless_16x9_thumbbig.jpg">
       </div>
     </div><!-- /.medium-8.columns -->
 
@@ -36,7 +36,7 @@ linkperrow: 6
         <img src="{{ site.urlimg }}sofa/02-stressless_16x9_thumbbig.jpg">
       </div>
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/03-stressless_16x9_thumb.jpg' modimage='sofa/03-stressless_16x9.jpg' class='t30' %}
+        {% include modalimg image='sofa/03-stressless_16x9_thumb.jpg' modimage='sofa/03-stressless_16x9.jpg' class='t30' size='medium' %}
       </div>
       <div class="show-for-small-only t30">
         <img src="{{ site.urlimg }}sofa/03-stressless_16x9_thumbbig.jpg">
@@ -48,22 +48,22 @@ linkperrow: 6
 <div class="row">
     <div class="medium-4 small-9 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/05-globe_16x9_thumb.jpg' modimage='sofa/05-globe.jpg' %}
+        {% include modalimg image='sofa/05-globe_16x9_thumb.jpg' modimage='sofa/05-globe.jpg' size='small' %}
       </div>
       <div class="show-for-small-only">
         <img src="{{ site.urlimg }}sofa/05-globe_16x9_thumbbig.jpg">
       </div>
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/07-divano_16x9_thumb.jpg' modimage='sofa/07-divano_16x9.jpg' class='t30' %}
+        {% include modalimg image='sofa/06-varier_16x9_thumb.jpg' modimage='sofa/06-varier.jpg' class='t30' %}
       </div>
       <div class="show-for-small-only t30">
-        <img src="{{ site.urlimg }}sofa/07-divano_16x9_thumbbig.jpg">
+        <img src="{{ site.urlimg }}sofa/06-varier_16x9_thumbbig.jpg">
       </div>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-8 small-9 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/04-stressless_16x9_thumbbig.jpg' modimage='sofa/04-stressless_16x9.jpg' %}
+        {% include modalimg image='sofa/04-stressless_16x9_thumbbig.jpg' modimage='sofa/04-stressless_16x9.jpg'  size='medium' %}
       </div>
       <div class="show-for-small-only">
         <img src="{{ site.urlimg }}sofa/04-stressless_16x9_thumbbig.jpg">
@@ -74,28 +74,28 @@ linkperrow: 6
 <div class="row">
     <div class="medium-4 small-9 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/06-lerroy_16x9_thumb.jpg' modimage='sofa/06-lerroy_16x9.jpg' %}
+        {% include modalimg image='sofa/07-hag_16x9_thumb.jpg' modimage='sofa/07-hag.jpg' %}
       </div>
       <div class="show-for-small-only">
-        <img src="{{ site.urlimg }}sofa/06-lerroy_16x9_thumbbig.jpg">
+        <img src="{{ site.urlimg }}sofa/07-hag_16x9_thumbbig.jpg">
       </div>
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 small-9 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/08-rigo_16x9_thumb.jpg' modimage='sofa/08-rigo_16x9.jpg' %}
+        {% include modalimg image='sofa/08-hag_16x9_thumb.jpg' modimage='sofa/08-hag.jpg' %}
       </div>
       <div class="show-for-small-only">
-        <img src="{{ site.urlimg }}sofa/08-rigo_16x9_thumbbig.jpg">
+        <img src="{{ site.urlimg }}sofa/08-hag_16x9_thumbbig.jpg">
       </div>
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 small-9 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-        {% include modalimg image='sofa/09-rigo_16x9_thumb.jpg' modimage='sofa/09-rigo_16x9.jpg' %}
+        {% include modalimg image='sofa/09-varier_16x9_thumb.jpg' modimage='sofa/09-varier.jpg' size='medium' %}
       </div>
       <div class="show-for-small-only">
-        <img src="{{ site.urlimg }}sofa/09-rigo_16x9_thumbbig.jpg">
+        <img src="{{ site.urlimg }}sofa/09-varier_16x9_thumbbig.jpg">
       </div>
     </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

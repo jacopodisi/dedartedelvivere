@@ -68,7 +68,7 @@ linkperrow: 6
         <img src="{{ site.urlimg }}living/03-tavolo_16x9_thumbbig.jpg">
       </div>
       <div class="hide-for-small-only">
-        {% include modalimg image='living/04-tavolo_16x9_thumb.jpg' modimage='living/04-tavolo_16x9.jpg' class='t30' %}
+        {% include modalimg image='living/04-tavolo_16x9_thumb.jpg' modimage='living/04-tavolo_16x9.jpg' class='t30' size='medium' %}
       </div>
       <div class="show-for-small-only t30">
         <img src="{{ site.urlimg }}living/04-tavolo_16x9_thumbbig.jpg">
