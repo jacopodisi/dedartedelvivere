@@ -7,6 +7,7 @@
 layout: frontpage
 header:
   image_fullwidth: fronte_negozio.jpg
+title: DeD Arte del Vivere
 #
 # Use the call for action to show a button on the frontpage
 #
