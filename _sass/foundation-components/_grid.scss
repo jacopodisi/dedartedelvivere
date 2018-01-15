@@ -224,6 +224,13 @@ $last-child-float: $opposite-direction !default;
 				@include grid-column;
 			}
 		}
+    .fullWidth {
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: initial;
+    }
+
 	}
 }
 

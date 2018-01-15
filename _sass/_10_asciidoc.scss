@@ -940,8 +940,12 @@ sup.footnoteref {
   a {
     text-decoration: none;
     &:active {
-      text-decoration: underline;
+      text-decoration: none; // underline;
     }
+  }
+  a:hover
+  {
+    color: #0080FF;
   }
 }
 
@@ -1186,4 +1190,16 @@ b.conum * {
 // QUESTION should we solve this w/ javascript instead?
 .conum:not([data-value]):empty {
   display: none;
+}
+
+a 
+{
+    text-decoration: none; 
+    font-weight: bold;
+    color: #0000FF
+}
+ 
+a:hover
+{
+    color: #0080FF;
 }

@@ -7,39 +7,30 @@ permalink: "contatti/"
 ---
 <div class="row">
     <div class="small-10 small-centered medium-5 medium-centered medium-end large-6 large-uncentered columns">
-        <h3>Contatta D&amp;D<br>Arte del Vivere</h3><br>
+        <h2>Contatta D&amp;D<br>Arte del Vivere</h2>
         <form method="POST" action="http://formspree.io/disimone.jacopo@gmail.com">
             <input type="hidden" name="_language" value="it" />
             <input type="email" name="email" placeholder="La tua email">
             <textarea name="message" placeholder="Il tuo messaggio"></textarea>
             <button type="submit">Send</button>
         </form>
-        Telefono:&nbsp;
+        <h4>Telefono:&nbsp;
         <span itemprop="telephone">
               <a href="tel:+39031935917">
                 031-935917
               </a>
-        </span><br>
-        Cellulare:&nbsp;
-        <span itemprop="telephone">
-              <a href="tel:+393484933776">
-                348-4933776
-              </a>
-        </span><br>
-        Cellulare:&nbsp;
-        <span itemprop="telephone">
-              <a href="tel:+393485175355">
-                348-5175355
-              </a>
-        </span><br>
-        Email:&nbsp;
-        <a href="mailto:dedarte@gmail.com">dedarte@gmail.com</a><br>
-        <h3>Orari</h3>
-        Lunedì 15:00-19:00<br>
-        Da Martedì a Sabato <br> 09:30-12:30 &nbsp; 15:00-19:00
+        </span></h4>
+        <h4>Email:&nbsp;
+        <a href="mailto:dedarte@gmail.com">dedarte@gmail.com</a></h4>
+        <h4>Email PEC:&nbsp;
+        <a href="mailto:dedarte@gmail.com">dedarte@pec.it</a></h4>
+        <h2>Orari</h2>
+        <h4>Lunedì 15:00-19:00</h4>
+        <h4>Da Martedì a Sabato <br> 09:30-12:30 &nbsp; 15:00-19:00</h4>
     </div>
     <div class="small-12 medium-8 medium-centered large-6 large-uncentered medium-end columns">
         <h2 style="text-align:center">Dove Siamo</h2><br>
+        <h4 style="text-align:center">Via Marconi 21 <br> 22070 Limido Comasco (CO)</h4><br>
         <div class="wrapper">
             <div class="h_iframe">
                 <img class="ratio" src="{{ site.urlimg }}1x1.png"/>

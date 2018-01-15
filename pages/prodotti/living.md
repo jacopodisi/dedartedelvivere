@@ -16,8 +16,6 @@ logos:
     link: http://www.morassutti-play.it
   - image: loghi/living/altacorte.jpg
     link: http://www.altacorte.it
-  - image: loghi/living/bamart.jpg
-    link: http://www.bamart.it
   - image: loghi/living/nidi.jpg
     link: https://nidi.it/it
   - image: loghi/living/nardiinterni.jpg
@@ -40,8 +38,8 @@ logos:
     link: http://www.excosofa.it
   - image: loghi/living/rigosalotti.jpg
     link: http://www.rigosalotti.it
-  - image: loghi/living/franco.jpg
-    link: https://francoarredamenti.it
+  - image: loghi/living/sediasolo.jpg
+    link: http://www.sediasolo.it
   
 linkperrow: 6
 ---
