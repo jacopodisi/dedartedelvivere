@@ -1,4 +1,4 @@
-for i in 01-idealbagni.jpg 02-idealbagni.jpg 03-idealbagni.jpg
+for i in *.jpg
 do
    aspectcrop -a 16:9 "$i" "${i%.jpg}_16x9.jpg"
    aspectcrop -a 16:9 "$i" "${i%.jpg}_16x9_thumb.jpg"

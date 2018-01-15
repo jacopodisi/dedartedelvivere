@@ -26,10 +26,16 @@
 * <li><a href="{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}" data-clearing-interchange="[{{ site.urlimg }}{{ page.gallery_url }}small/{{ item.image }}, (small-only)], [{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}, (medium-only)], [{{ site.urlimg }}{{ page.gallery_url }}{{ item.image }}, (xlarge)]"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
 *
 {% endcomment %}
+{% capture ipath %}{{ page.gallery_url }}{% endcapture %}
 <div>
-	<ul class="clearing-thumbs small-block-grid-3 medium-block-grid-4" data-clearing>
-		{% for item in page.gallery %}
-			<li><a href="{{ site.urlimg }}{{ page.gallery_url }}medium/{{ item.image }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ page.gallery_url }}thumb/{{ item.image }}" alt="{{ item.caption }}"></a></li>
-		{% endfor %}
+	<ul class="clearing-thumbs small-block-grid-3 medium-block-grid-4 large-block-grid-5" data-clearing>
+        {% assign image_files = site.static_files | where: "image", true %}
+        {% for image in image_files %}
+            {% if image.path contains ipath %}
+                {% unless image.name contains 'thumb' %}
+                    <li><a href="{{ site.urlimg }}{{ page.gallery_url }}{{ image.name }}"><img data-caption="{{ image.basename }}" src="{{ site.urlimg }}{{ page.gallery_url }}{{ image.basename }}_thumb{{ image.extname }}" alt="{{ image.basename }}"></a></li>
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
 	</ul>
 </div>

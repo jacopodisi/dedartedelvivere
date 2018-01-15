@@ -44,6 +44,30 @@ $alert-color: $ci-5;
 $success-color: $ci-6;
 $warning-color: $ci-4;
 $info-color: $ci-1;
+$light-gray: #e6e6e6 !default;
+$medium-gray: #cacaca !default;
+$dark-gray: #8a8a8a !default;
+
+/// Color used for black ui items.
+/// @type Color
+$black: #0a0a0a !default;
+
+/// Color used for white ui items.
+/// @type Color
+$white: #fefefe !default;
+
+/// Background color of the body.
+/// @type Color
+$body-background: $body-bg !default;
+
+/// Global value used for padding on components.
+/// @type Number
+$global-padding: 1rem !default;
+
+/// Global value used for margin on components.
+/// @type Number
+$global-margin: 1rem !default;
+
 
 
 

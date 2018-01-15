@@ -422,7 +422,7 @@ $align-class-breakpoints:
     }
 
     /* Microformats */
-    .vcard {
+    /* .vcard {
       display: inline-block;
       margin: $microformat-margin;
       border: $microformat-border-width $microformat-border-style $microformat-border-color;
@@ -436,7 +436,7 @@ $align-class-breakpoints:
         font-weight: $microformat-fullname-font-weight;
         font-size: $microformat-fullname-font-size;
       }
-    }
+    } */
 
     .vevent {
       .summary { font-weight: $microformat-summary-font-weight; }

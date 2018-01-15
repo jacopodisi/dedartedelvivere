@@ -1,8 +1,7 @@
 ---
 layout: frontpage
 show_meta: false
-title: "Titolo pagina prodotti..."
-subheadline: "sotto titolo..."
+title: "Prodotti"
 header:
    image_fullwidth: "fronte_negozio.jpg"
 permalink: "prodotti/"
