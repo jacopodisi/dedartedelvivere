@@ -7,12 +7,14 @@ permalink: "contatti/"
 ---
 <div>
 {% for social_item in site.data.socialmedia %} {% if social_item.name == 'Facebook' %}
-    <h2 style="text-align:center"><a href="mailto:dedarte@gmail.com">{{ social_item.name }}</a></h2>
     <div class="row">
-        <div class="small-1 small-centered columns">
-            <ul class="inline-list social-icons">
-                <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-            </ul>
+        <div class="small-4 small-centered columns">
+            <h2><a href="{{ social_item.url }}" >{{ social_item.name }}</a></h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-4 small-centered columns">
+            {% include fb-like align='bottom'%}
         </div>
     </div>
 {% endif %} {% endfor %}
