@@ -1,9 +1,9 @@
 folder=.
 for i in cucine.jpg bagni.jpg living.jpg sofa.jpg walldeco.jpg
 do
-   aspectcrop -a 3:5 "$i" "${i%.jpg}_3x5_big.jpg"
+   aspectcrop -a 4:3 "$i" "${i%.jpg}_4x3.jpg"
    # aspectcrop -a 16:9 "$i" "${i%.jpg}_thumbbig.jpg"
-   mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '600>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip "${i%.jpg}_3x5_big.jpg"
+   mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '300>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 70 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip "${i%.jpg}_4x3.jpg"
    # mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '657>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip "${i%.jpg}_thumbbig.jpg"
    # mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '1063>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace plane -colorspace sRGB -strip "$i"
 done

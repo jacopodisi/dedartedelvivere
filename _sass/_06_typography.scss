@@ -26,24 +26,35 @@ Check typography variables › _3_typography_settings.scss
 
 a,
 a:link {
+    text-decoration:  none!important;
     transition: all .4s;
-    color: $ci-6
+    color: $ci-6;
+    border-bottom: 0px solid red;
+
 }
 
 a:visited {
     border-bottom: $grey-2;
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 
 a:hover {
-    color: darken( $ci-6, 10% );
+    color: darken( $ci-6, 7% );
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 
 a:focus {
     color: lighten( $ci-6, 20% );
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 
 a:active {
     color: darken( $ci-6, 20% );
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 
 
@@ -63,22 +74,28 @@ p {
 p a,
 article a {
     font-weight: bold;
-    border-bottom: 1px dotted;
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 p a:hover,
 article a:hover {
-    border-bottom: 2px solid;
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 p a.button,
 .button,
 .button:hover {
     border: 0;
     color: #fff;
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 p.button a {
     border: 0;
     color: #fff;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    text-decoration:  none!important;
+    border-bottom: 0px solid red;
 }
 
 

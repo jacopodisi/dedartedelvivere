@@ -5,6 +5,18 @@ header:
 title: ""
 permalink: "contatti/"
 ---
+<div>
+{% for social_item in site.data.socialmedia %} {% if social_item.name == 'Facebook' %}
+    <h2 style="text-align:center"><a href="mailto:dedarte@gmail.com">{{ social_item.name }}</a></h2>
+    <div class="row">
+        <div class="small-1 small-centered columns">
+            <ul class="inline-list social-icons">
+                <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+            </ul>
+        </div>
+    </div>
+{% endif %} {% endfor %}
+</div>
 <div class="row">
     <div class="small-10 small-centered medium-5 medium-centered medium-end large-6 large-uncentered columns">
         <h2>Contatta D&amp;D<br>Arte del Vivere</h2>
@@ -39,4 +51,5 @@ permalink: "contatti/"
         </div>
     </div>
 </div>
+
 
