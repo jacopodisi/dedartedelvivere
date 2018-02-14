@@ -26,7 +26,8 @@ permalink: "contatti/"
             <input type="hidden" name="_language" value="it" />
             <input type="email" name="email" placeholder="La tua email">
             <textarea name="message" placeholder="Il tuo messaggio"></textarea>
-            <button type="submit">Send</button>
+            <button type="submit">Invia</button>
+            <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}//grazie.html" />
         </form>
         <h4>Telefono:&nbsp;
         <span itemprop="telephone">
