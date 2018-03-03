@@ -1,11 +1,12 @@
-folder=.
-for i in cucine.jpg bagni.jpg living.jpg sofa.jpg walldeco.jpg
+folder=occasioni
+for i in $folder/promo_stressless.jpg
 do
-   aspectcrop -a 4:3 "$i" "${i%.jpg}_4x3.jpg"
+   #aspectcrop -a 4:3 "$i" "${i%.jpg}_4x3.jpg"
+   # aspectcrop -a 16:9 "$i" "${i%.jpg}_thumb.jpg"
    # aspectcrop -a 16:9 "$i" "${i%.jpg}_thumbbig.jpg"
-   mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '300>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 70 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip "${i%.jpg}_4x3.jpg"
+   # mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '300>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 70 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip "${i%.jpg}_4x3.jpg"
    # mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '657>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip "${i%.jpg}_thumbbig.jpg"
-   # mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '1063>' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace plane -colorspace sRGB -strip "$i"
+   mogrify -path $folder/ -filter Triangle -define filter:support=2 -thumbnail '657' -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace plane -colorspace sRGB -strip "$i"
 done
 # mogrify -path thumb -filter Triangle -define filter:support=2 -thumbnail 141 -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip thumb/*.jpg
 # mogrify -path thumb -filter Triangle -define filter:support=2 -thumbnail 303 -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip thumb/*.jpg
