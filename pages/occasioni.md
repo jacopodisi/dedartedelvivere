@@ -14,14 +14,6 @@ permalink: "occasioni/"
   <li>
     <div class="card">
       <div class="card-divider">
-        <h3>Promo Stressless</h3>
-      </div>
-      <img src="{{ site.urlimg }}occasioni/promo_stressless.jpg">
-    </div>
-  </li>
-  <li>
-    <div class="card">
-      <div class="card-divider">
         <h3>Divano Stressless in pelle</h3>
       </div>
       <img src="{{ site.urlimg }}occasioni/arion_home_1_thumbbig.jpg">
