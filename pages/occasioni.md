@@ -10,7 +10,8 @@ permalink: "occasioni/"
 # Occasioni
 
 <ul class="small-block-grid-1 medium-block-grid-2">
-  {% for item in site.occasioni %}
+  {% assign sorted = site.occasioni | reverse %}
+  {% for item in sorted %}
     <li>
       <div class="card">
         <div class="card-divider">
