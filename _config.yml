@@ -50,6 +50,10 @@ plugins:
     - jekyll-gist
     - jekyll-paginate
 
+collections:
+    occasioni:
+      output: false
+
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
@@ -64,7 +68,6 @@ plugins:
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
-permalink: /:categories/:title/
 highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
@@ -121,7 +124,7 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: jacopo     # Default author for posts
-  - 
+  -
     scope:
       path: "images"
     values:
