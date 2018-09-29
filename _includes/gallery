@@ -33,7 +33,7 @@
         {% for image in image_files %}
             {% if image.path contains ipath %}
                 {% unless image.name contains 'thumb' %}
-                    <li><a href="{{ site.urlimg }}{{ page.gallery_url }}{{ image.name }}"><img data-caption="{{ image.basename }}" src="{{ site.urlimg }}{{ page.gallery_url }}{{ image.basename }}_thumb{{ image.extname }}" alt="{{ image.basename }}"></a></li>
+                    <li><a href="{{ site.urlimg }}{{ page.gallery_url }}{{ image.name }}"><img src="{{ site.urlimg }}{{ page.gallery_url }}{{ image.basename }}_thumb{{ image.extname }}" alt="{{ image.basename }}"></a></li>
                 {% endunless %}
             {% endif %}
         {% endfor %}
