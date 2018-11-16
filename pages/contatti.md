@@ -22,7 +22,7 @@ permalink: "contatti/"
 <div class="row">
     <div class="small-10 small-centered medium-5 medium-centered medium-end large-6 large-uncentered columns">
         <h2>Contatta D&amp;D<br>Arte del Vivere</h2>
-        <form method="POST" action="http://formspree.io/dedarte@gmail.com">
+        <form method="POST" action="https://formspree.io/dedarte@gmail.com">
             <input type="hidden" name="_language" value="it" />
             <input type="email" name="email" placeholder="La tua email">
             <textarea name="message" placeholder="Il tuo messaggio"></textarea>
