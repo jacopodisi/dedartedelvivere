@@ -10,8 +10,6 @@ logos:
     link: http://www.copatlife.it/
   - image: loghi/cucine/arredo3.jpg
     link: http://www.arredo3.it/
-  - image: loghi/cucine/lyons.jpg
-    link: http://www.lyons.it/
 linkperrow: 6
 ---
 # Cucine
