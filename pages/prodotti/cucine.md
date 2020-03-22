@@ -145,7 +145,7 @@ linkperrow: 6
 
     <div class="medium-6 small-15 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-      {% include modalimg image='cucine/KALI10_1_16x9_thumb.jpg' modimage='cucine/KALI10_2_16x9.jpg' caption='Kali 10' %}
+      {% include modalimg image='cucine/KALI10_1_16x9_thumb.jpg' modimage='cucine/KALI10_1_16x9.jpg' caption='Kali 10' %}
       </div>
       <div class="show-for-small-only">
         <img src="{{ site.urlimg }}cucine/KALI10_1_16x9_thumbbig.jpg">
