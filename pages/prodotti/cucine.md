@@ -51,10 +51,10 @@ linkperrow: 6
 <div class="row">
     <div class="medium-8 small-10 small-centered medium-uncentered columns t30">
       <div class="hide-for-small-only">
-        {% include modalimg image='cucine/04-canovalyons_16x9_thumbbig.jpg' modimage='cucine/04-canovalyons_16x9.jpg' caption='Lyons CANOVA' %}
+        {% include modalimg image='cucine/KALI03_16x9_thumbbig.jpg' modimage='cucine/KALI03_16x9.jpg' caption='Arredo3 Kali' %}
       </div>
       <div class="show-for-small-only">
-        <img src='{{ site.urlimg }}cucine/04-canovalyons_16x9_thumbbig.jpg'>
+        <img src='{{ site.urlimg }}cucine/KALI03_16x9_thumbbig.jpg'>
       </div>
     </div><!-- /.medium-8.columns -->
 
