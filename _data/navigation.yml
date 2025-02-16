@@ -21,10 +21,6 @@
   url: "/realizzazioni/"
   side: left
 
-- title: Occasioni
-  url: "/occasioni/"
-  side: left
-
 - title: "Contatti"
   url: "/contatti/"
   side: right
