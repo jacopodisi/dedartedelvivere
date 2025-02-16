@@ -57,18 +57,4 @@ homepage: true
         </a>
     </div>
   </div>
-  <div class="small-10 medium-4 small-centered medium-uncentered columns">
-    <div class="image-hover-wrapper">
-      <span class="image-hover-wrapper-banner">Occasioni</span>
-        <a href="{{ site.url }}{{ site.baseurl }}/occasioni/" >
-          <div class="hide-for-small-only">
-            <img src="{{ site.urlimg }}occasioni_3x4.jpg">
-          </div>
-          <div class="show-for-small-only">
-            <img src="{{ site.urlimg }}occasioni_16x9.jpg">
-          </div>
-          <span class="image-hover-wrapper-reveal"/>
-        </a>
-    </div>
-  </div>
 </div>
